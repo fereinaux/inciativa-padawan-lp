@@ -1,9 +1,13 @@
+body {
+  background-color: #333;
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: #f3d069;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -18,16 +22,16 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: #f1c232;
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: #f1c232;
 }
 h4 {
   font-size: 18px;
-  color: #333;
+  color: #f1c232;
   font-weight: 600;
 }
 h5 {
@@ -43,13 +47,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #f1c232;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #f1c232;
 }
 ul,
 ol {
@@ -70,13 +74,19 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+#menu .navbar-brand.page-scroll {
+  padding: 0;
+}
+#menu .logo {
+  height: 100%;
+}
 /* Navigation */
 #menu {
   padding: 15px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #333;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -84,13 +94,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #f1c232;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #f1c232;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -104,7 +114,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #eeca5e 0%, #deb025 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +135,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #eeca5e 0%, #deb025 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +145,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #f1c232;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #f1c232;
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +162,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #eeca5e 0%, #deb025 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -165,9 +175,9 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  color: #000;
+  background-color: #f1c232;
+  background-image: linear-gradient(to right, #eeca5e 0%, #deb025 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -182,9 +192,9 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: #000;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #deb025;
 }
 .btn:active,
 .btn.active {
@@ -216,12 +226,12 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.51);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
+  color: #f1c232;
+  font-size: 4rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -232,8 +242,8 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
-  font-size: 22px;
+  color: #f1c232;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
@@ -257,7 +267,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2c2049 0%, #443f62 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +286,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #eeca5e 0%, #deb025 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -299,9 +309,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
-  background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   line-height: 24px;
@@ -310,19 +318,19 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: linear-gradient(to right, #2c2049 0%, #443f62 100%);
+  color: #f1c232;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #f1c232;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #f1c132b0;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -334,23 +342,54 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2c2049 0%, #443f62 100%);
   border-radius: 50%;
-  color: #fff;
+  color: #f1c232;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #f1c232;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #f1cc5e;
 }
 #services .service-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
+#portfolio .cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+#portfolio .card-pricing {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #f1c232;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+#portfolio .card-pricing h6 {
+  font-size: 1.8rem;
+}
+#portfolio .card-pricing h4 {
+  font-size: 2.7rem;
+  margin-bottom: 50px;
+}
+#portfolio .card-pricing .botao {
+  margin-top: auto;
+}
+
+#portfolio .card-pricing .btn {
+  margin-top: 30px;
+}
 #portfolio {
   padding: 100px 0;
 }
@@ -367,12 +406,8 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  color: #f1c232;
+  background: linear-gradient(to right, #2c2049 0%, #443f62 100%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -381,7 +416,7 @@ header .intro-text {
 }
 .hover-bg .hover-text > h4 {
   opacity: 0;
-  color: #fff;
+  color: #f1c232;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
@@ -402,10 +437,10 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: linear-gradient(to right, #2c2049 0%, #443f62 100%);
 }
 #testimonials i {
-  color: #e6e6e6;
+  color: #f2d378;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -437,9 +472,13 @@ header .intro-text {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: #f1c232;
 }
+
 /* Team Section */
+.team {
+  margin-top: 40px;
+}
 #team {
   padding: 100px 0;
 }
@@ -455,12 +494,12 @@ header .intro-text {
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
-  color: #888;
+  color: #e8d8a7;
 }
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2c2049 0%, #443f62 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -580,7 +619,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #f1c232;
   background: #fff;
 }
 /* Footer Section*/
@@ -593,10 +632,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #f1c232;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #f1c232;
 }
 
 @media (max-width: 768px) {

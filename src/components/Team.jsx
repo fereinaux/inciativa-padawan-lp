@@ -5,16 +5,11 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
-        </div>
-        <div id="row">
+          <h2>Conheça o Mestre</h2>
+
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="team">
                   <div className="thumbnail">
                     {" "}
                     <img src={d.img} alt="..." className="team-img" />
@@ -26,6 +21,20 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
+          <p>Recifense de 28 anos apaixonado por tecnologia e Star Wars.</p>
+          <p>
+            {" "}
+            Começou sua carreira com tecnologia aos 19 anos e desde então já fez
+            parte de times em grandes empresas como <i>Avanade</i>,{" "}
+            <i>Globant</i> e atualmente
+            <i> Thomnson Reuters</i>.
+          </p>
+          <p>
+            {" "}
+            Sua trajetória envolve certificações <i>Microsoft</i>, projetos
+            internacionais e envolvimento em mentorias de capacitação para o
+            mercado de tecnologia.
+          </p>
         </div>
       </div>
     </div>
