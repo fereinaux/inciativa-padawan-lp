@@ -360,20 +360,63 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio .cards {
+  padding-top: 150px;
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 85px;
   width: 100%;
   flex-wrap: wrap;
   margin: auto;
 }
 #portfolio .card-pricing {
-  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  border: 2px solid #f1c232;
+
   padding: 20px;
   border-radius: 12px;
+  flex: 1 1 auto;
+}
+
+#obiwan {
+  border: 2px solid #1ec4f2;
+  background: linear-gradient(to bottom, #333 0%, #1d78a1 100%);
+}
+
+#obiwan .btn {
+  background: #1ec4f2;
+}
+
+#vader .btn {
+  background: #d45858;
+}
+
+#vader {
+  border: 2px solid #d45858;
+  background: linear-gradient(to bottom, #333 0%, #841e1e 100%);
+}
+
+#yoda .btn {
+  background: #5ae673;
+}
+
+#yoda {
+  border: 2px solid #5ae673;
+  background: linear-gradient(to bottom, #333 0%, #148028 100%);
+}
+
+#portfolio .card-holder {
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+#portfolio img {
+  width: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+  top: -40px;
 }
 
 #portfolio .card-pricing h6 {
@@ -393,6 +436,7 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
