@@ -308,13 +308,11 @@ header .intro-text {
   padding-right: 8px;
 }
 #about .logo-container {
-  margin-top: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 #about .img-responsive {
-  margin: auto;
 }
 #about .row .team h4 {
   margin-bottom: 10px;
@@ -609,9 +607,7 @@ svg {
 }
 
 /* Team Section */
-.team {
-  margin-top: 40px;
-}
+
 #team {
   padding: 100px 0;
 }
