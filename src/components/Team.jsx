@@ -21,6 +21,26 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
+          <div className="contact-brands">
+            <a
+              href="https://www.linkedin.com/in/reinauxfelipe/"
+              target="_blank"
+            >
+              <i className="fa fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5581997187441"
+              target="_blank"
+            >
+              <i className="fa fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/fereinaux/" target="_blank">
+              <i className="fa fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/fereinaux" target="_blank">
+              <i className="fa fa-brands fa-github"></i>
+            </a>
+          </div>
           <p>Recifense de 28 anos apaixonado por tecnologia e Star Wars.</p>
           <p>
             {" "}
