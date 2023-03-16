@@ -4,7 +4,7 @@
     "paragraph": "de o próximo passo para se tornar um Mestre Jedi"
   },
   "About": {
-    "paragraph": "Surgiu da ideia de capacitar pessoas em transição e início de carreira, de uma forma intensiva e com um projeto real, envolvendo tecnologias e processos atuais de desenvolvimento",
+    "paragraph": "Surgiu da ideia de capacitar pessoas em transição e início de carreira, de uma forma intensiva e com um projeto real, envolvendo tecnologias e processos atuais de desenvolvimento. Além de um acompanhamento no estilo mentoria para entender momento de mercado e pontos de melhoria.",
     "Why": ["Javascript", "HTTP", "NodeJS", "Scrum"]
   },
   "Services": [
@@ -22,8 +22,8 @@
       "name": "Node JS"
     },
     {
-      "icon": "fa fa-solid fa-terminal",
-      "name": "Comandos no terminal"
+      "icon": "fa fa-brands fa-linkedin",
+      "name": "Linkedin"
     },
     {
       "icon": "fa fa-solid fa-code",
@@ -38,17 +38,20 @@
     {
       "img": "img/testimonials/02.jpg",
       "text": "",
-      "name": "João Minervino"
+      "name": "João Minervino",
+      "cargo": "Flutter Developer na WD7"
     },
     {
       "img": "img/testimonials/01.jpg",
       "text": "",
-      "name": "Bárbara Figueirôa"
+      "name": "Bárbara Figueirôa",
+      "cargo": "QA Analyst na NTT DATA"
     },
     {
       "img": "img/testimonials/03.jpg",
       "text": "",
-      "name": "João Victor de Medeiros"
+      "name": "João Victor de Medeiros",
+      "cargo": "Software Developer na Localiza"
     }
   ],
   "Team": [
@@ -56,28 +59,6 @@
       "img": "img/team/01.jpg",
       "name": "Felipe Reinaux",
       "job": "Grande Mestre Jedi"
-    }
-  ],
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ]
 }

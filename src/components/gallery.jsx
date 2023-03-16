@@ -7,11 +7,15 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>O Investimento</h2>
+          <p>
+            Inscrições abertas até <strong>31/03</strong> ou enquanto tiverem
+            vagas
+          </p>
         </div>
         <div className="cards">
           <div className="card-holder">
-            <img src="img/obiwan.png" alt="" />
-            <div className="card-pricing" id="obiwan">
+            <img src="img/obiwan.png" className="obiwan" alt="" />
+            <div className="card-pricing obiwan" id="obiwan">
               <h6>Obi-Wan</h6>
               <h4>R$ 399,90</h4>
               <p>40 horas de aula</p>
@@ -29,8 +33,8 @@ export const Gallery = (props) => {
             </div>
           </div>
           <div className="card-holder">
-            <img src="img/vader.png" alt="" />
-            <div className="card-pricing" id="vader">
+            <img src="img/vader.png" alt="" className="vader" />
+            <div className="card-pricing vader" id="vader">
               <h6>Darth Vader</h6>
               <h4>R$ 499,90</h4>
               <p>40 horas de aula</p>
@@ -54,8 +58,8 @@ export const Gallery = (props) => {
             </div>
           </div>
           <div className="card-holder">
-            <img src="img/yoda.png" alt="" />
-            <div className="card-pricing" id="yoda">
+            <img src="img/yoda.png" alt="" className="yoda" />
+            <div className="card-pricing yoda" id="yoda">
               <h6>Yoda</h6>
               <h4>R$ 699,90</h4>
               <p>40 horas de aula</p>

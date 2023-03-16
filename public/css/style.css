@@ -358,6 +358,7 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
 /* Portfolio Section */
 #portfolio .cards {
   padding-top: 150px;
@@ -375,11 +376,24 @@ header .intro-text {
   padding: 20px;
   border-radius: 12px;
   flex: 1 1 auto;
+  z-index: 2;
 }
 
 #obiwan {
   border: 2px solid #1ec4f2;
   background: linear-gradient(to bottom, #333 0%, #1d78a1 100%);
+}
+
+.obiwan {
+  filter: drop-shadow(5px 5px 20px #87e5ffbc);
+}
+
+.yoda {
+  filter: drop-shadow(5px 5px 20px #8fff87bc);
+}
+
+.vader {
+  filter: drop-shadow(5px 5px 20px #ff8787bc);
 }
 
 #obiwan .btn {
@@ -415,7 +429,7 @@ header .intro-text {
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  z-index: -100;
+  z-index: 1;
   top: -40px;
 }
 
@@ -435,6 +449,7 @@ header .intro-text {
 }
 #portfolio {
   padding: 100px 0;
+  background: linear-gradient(to right, #0e5164 0%, #390e0e 50%, #174f0c 100%);
 }
 
 .portfolio-item {
@@ -506,6 +521,10 @@ header .intro-text {
 .testimonial-content {
   position: relative;
   overflow: hidden;
+}
+
+.testimonial-content span {
+  font-size: 1.3rem;
 }
 .testimonial-content p {
   margin-bottom: 0;
