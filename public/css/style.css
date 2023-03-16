@@ -358,6 +358,10 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+#portfolio span.crossed {
+  text-align: left;
+  text-decoration: line-through;
+}
 
 /* Portfolio Section */
 #portfolio .cards {
@@ -377,6 +381,7 @@ header .intro-text {
   border-radius: 12px;
   flex: 1 1 auto;
   z-index: 2;
+  padding-bottom: 40px;
 }
 
 #obiwan {
@@ -422,6 +427,12 @@ header .intro-text {
   position: relative;
   flex: 1 1 auto;
   display: flex;
+  padding: 20px 0;
+}
+
+#portfolio .card-holder.selected {
+  margin-top: -50px;
+  margin-bottom: 50px;
 }
 
 #portfolio img {
@@ -435,21 +446,29 @@ header .intro-text {
 
 #portfolio .card-pricing h6 {
   font-size: 1.8rem;
+  text-align: left;
+  margin-bottom: 50px;
 }
 #portfolio .card-pricing h4 {
+  text-align: left;
   font-size: 2.7rem;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 #portfolio .card-pricing .botao {
   margin-top: auto;
 }
 
 #portfolio .card-pricing .btn {
-  margin-top: 30px;
+  margin: 15px 0;
+  color: #fff;
 }
 #portfolio {
   padding: 100px 0;
   background: linear-gradient(to right, #0e5164 0%, #390e0e 50%, #174f0c 100%);
+}
+
+#portfolio p strong {
+  font-weight: 800;
 }
 
 .portfolio-item {
