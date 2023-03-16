@@ -307,9 +307,36 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
+#about .logo-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .img-responsive {
+  margin: auto;
+}
+#about .row .team h4 {
+  margin-bottom: 10px;
+}
+#about .row .team p {
+  margin-top: 0;
+}
+#about .row .team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about .row {
+  margin-bottom: 60px;
+}
+#about .team-img {
+  width: 200px;
+  border-radius: 50%;
+}
 #about img {
   width: 520px;
-  margin-top: 10px;
   border-right: 0;
 }
 #about p {
