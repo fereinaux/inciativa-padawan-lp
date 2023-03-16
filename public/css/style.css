@@ -358,11 +358,36 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-#portfolio span.crossed {
+#portfolio span {
   text-align: left;
-  text-decoration: line-through;
+  opacity: 0;
+  font-size: small;
 }
 
+.tag-obiwan {
+  background: rgba(91, 191, 248, 0.614);
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 12px;
+}
+
+.tag-vader {
+  background: rgba(248, 91, 91, 0.614);
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 12px;
+}
+
+.tag-yoda {
+  background: rgba(91, 248, 107, 0.614);
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 12px;
+}
+
+#portfolio span.crossed {
+  text-decoration: line-through;
+}
 /* Portfolio Section */
 #portfolio .cards {
   padding-top: 150px;
@@ -381,7 +406,7 @@ header .intro-text {
   border-radius: 12px;
   flex: 1 1 auto;
   z-index: 2;
-  padding-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #obiwan {
@@ -423,31 +448,19 @@ header .intro-text {
   background: linear-gradient(to bottom, #333 0%, #148028 100%);
 }
 
-#portfolio .card-holder {
-  position: relative;
-  flex: 1 1 auto;
-  display: flex;
-  padding: 20px 0;
-}
-
-#portfolio .card-holder.selected {
-  margin-top: -50px;
-  margin-bottom: 50px;
-}
-
 #portfolio img {
   width: 50%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  z-index: 1;
-  top: -40px;
+  z-index: 2;
+  top: -20px;
 }
 
 #portfolio .card-pricing h6 {
   font-size: 1.8rem;
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #portfolio .card-pricing h4 {
   text-align: left;
@@ -723,5 +736,19 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+  #portfolio .card-holder.selected {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #portfolio {
+    background: linear-gradient(
+      to bottom,
+      #0e5164 0%,
+      #390e0e 50%,
+      #174f0c 100%
+    );
   }
 }

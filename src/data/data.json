@@ -37,21 +37,15 @@
   "Testimonials": [
     {
       "img": "img/testimonials/02.jpg",
-      "text": "",
+      "text": "Recomendo fortemente o curso para quem quer aprimorar e expandir suas habilidades em programação, quando fiz, estava iniciando, e graças a Felipe e sua didática, toda a base e conceitos que ele nos ensinou de Logica de Programação, Scrum, Deploy e REST API, são importantíssimos no mercado de trabalho e utilizo ate hoje!",
       "name": "João Minervino",
       "cargo": "Flutter Developer na WD7"
     },
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "",
-      "name": "Bárbara Figueirôa",
-      "cargo": "QA Analyst na NTT DATA"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "",
-      "name": "João Victor de Medeiros",
-      "cargo": "Software Developer na Localiza"
+      "img": "img/testimonials/04.jpg",
+      "text": "Participar do curso do Felipe Reinaux foi um divisor de águas na minha carreira. Eu havia trabalhado em suporte de software por 2 anos sem escrever código. Este curso me deu a oportunidade de trabalhar em vários projetos em equipe, incluindo o projeto final que foi um bot para o Discord sobre os filmes de Star Wars. Aprendi sobre NodeJS, protocolo HTTP, Git, GitHub e como fazer deploy de projetos no Heroku. A experiência do Felipe e suas explicações claras não deixaram dúvidas. Meses após o curso, mudei de emprego e desde então tenho trabalhado com código. Obrigado, Felipe, por essa experiência transformadora!",
+      "name": "Gildo Neto",
+      "cargo": "Frontend Developer na Thoughtworks"
     }
   ],
   "Team": [

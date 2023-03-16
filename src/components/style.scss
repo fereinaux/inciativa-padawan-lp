@@ -1,0 +1,29 @@
+#portfolio {
+  .card-holder {
+    position: relative;
+    flex: 1 1 auto;
+    display: flex;
+    padding: 20px 0;
+    cursor: pointer;
+
+    &.selected {
+      margin-top: -50px;
+      margin-bottom: 50px;
+      span {
+        text-align: left;
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      &:not(.selected) {
+        margin-top: -50px;
+        margin-bottom: 50px;
+      }
+
+      span {
+        opacity: 1;
+      }
+    }
+  }
+}
