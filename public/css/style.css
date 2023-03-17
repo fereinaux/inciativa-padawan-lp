@@ -805,4 +805,8 @@ label {
       #174f0c 100%
     );
   }
+
+  #portfolio span {
+    opacity: 1;
+  }
 }

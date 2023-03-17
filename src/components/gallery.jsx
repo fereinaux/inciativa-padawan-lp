@@ -39,6 +39,7 @@ export const Gallery = (props) => {
                   </a>
                 </div>
                 <p>40 horas de aula</p>
+                <p>Certificado Personalizado</p>
                 <p>Projeto de API para Portfolio</p>
                 <p>Grupo no Whatsapp</p>
                 <p>-</p>
@@ -73,6 +74,7 @@ export const Gallery = (props) => {
                   </a>
                 </div>
                 <p>40 horas de aula</p>
+                <p>Certificado Personalizado</p>
                 <p>Projeto de API para Portfolio</p>
                 <p>Grupo no Whatsapp</p>
                 <p>Simulação de Entrevista</p>
@@ -107,6 +109,7 @@ export const Gallery = (props) => {
                   </a>
                 </div>
                 <p>60 horas de aula</p>
+                <p>Certificados Personalizados</p>
                 <p>Projeto de API para Portfolio</p>
                 <p>Grupo no Whatsapp</p>
                 <p>Simulação de Entrevista</p>
