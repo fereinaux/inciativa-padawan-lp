@@ -9,32 +9,32 @@ export const Services = (props) => {
           <p>Skills de um verdadeiro Jedi</p>
         </div>
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <i className="fa fa-solid fa-code"></i>
             <div className="service-desc">
               <h3>Algoritmos</h3>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <i className="fa fa-solid fa-terminal"></i>
             <div className="service-desc">
               <h3>Terminal</h3>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <i className="fa fa-brands fa-node"></i>
             <div className="service-desc">
               <h3>Node</h3>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <i className="fa fa-brands fa-react"></i>
             <div className="service-desc">
               <h3>React</h3>
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <svg
               width="800px"
               height="800px"
@@ -52,13 +52,13 @@ export const Services = (props) => {
               <h3>JSON</h3>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <i className="fa fa-brands fa-git-alt"></i>
             <div className="service-desc">
               <h3>Git</h3>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <svg
               fill="currentColor"
               width="800px"
@@ -72,7 +72,7 @@ export const Services = (props) => {
               <h3>CI/CD</h3>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             <svg
               width="800px"
               height="800px"
